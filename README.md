@@ -38,6 +38,12 @@ To use an existing installation of miniconda3, please run the command
 source /notebooks/miniconda3/etc/profile.d/conda.sh
 ```
 
+Clone this repository
+```
+git clone https://github.com/UTDTianGroup/cv_paperspace_sample.git
+cd cv_paperspace_sample
+```
+
 ## Train the model
 
 python train.py --save_path /path/to/save/model/

@@ -16,6 +16,11 @@ bash /notebooks/miniconda3/miniconda.sh -b -u -p /notebooks/miniconda3
 rm /notebooks/miniconda3/miniconda.sh
 ```
 
+Close and re-open the terminal. If the conda command is not recognized, please run the following command
+```
+source /notebooks/miniconda3/etc/profile.d/conda.sh
+```
+
 To deactivate auto activate of the base conda environment, please run the following command
 ```
 conda config --set auto_activate_base false
